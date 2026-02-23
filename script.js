@@ -147,10 +147,16 @@ function renderInterview() {
 
   if (interviewList.length === 0) {
     filterSection.innerHTML = `
-      <div class="text-center py-20">
-        <h2 class="text-2xl font-bold">No Interview Jobs</h2>
-      </div>
-    `;
+  <div class="text-center py-20">
+            <div class="text-6xl mb-4 flex items-center justify-center">
+                <img src="./jobs.png" alt="">
+            </div>
+            <h2 class="text-2xl font-bold">No Jobs Available</h2>
+            <p class="text-gray-500 mt-2">
+                You have not added any jobs to this section yet.
+            </p>
+        </div>
+`;
     return;
   }
 
