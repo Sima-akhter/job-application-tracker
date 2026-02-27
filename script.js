@@ -234,6 +234,9 @@ function renderRejected() {
     if (rejectedList.length === 0) {
         filterSection.innerHTML = `
       <div class="text-center py-20">
+      <div class="text-6xl mb-4 flex justify-center">
+          <img src="./jobs.png" alt="">
+        </div>
         <h2 class="text-2xl font-bold">No Jobs Available</h2>
         <p class="text-gray-500 mt-2">
           You have not rejected any jobs yet.
