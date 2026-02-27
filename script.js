@@ -251,7 +251,7 @@ function renderRejected() {
     rejectedList.forEach(job => {
         filterSection.innerHTML += `
 
-       <div class="card-body bg-base-100 shadow-md border-gray-200">
+       <div class="card-body bg-base-100 shadow-md border-gray-200 mb-6">
 
                 <div class="flex justify-between items-start">
 
